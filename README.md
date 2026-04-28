@@ -1,3 +1,1 @@
 This mod is made for the modpack "Create Skyblock Mordrinth Edition" which is also made by me (lassilos) at this point of development it only adds a few items like -Dirty copper Powder which is used with washing to get copper powder -Powdered copper which makes it possible to make a copper automated copper farm. -incomplete netherite nuggets which are just used in the recipe for netherite -others are planned
-
-Made with Mcreator
