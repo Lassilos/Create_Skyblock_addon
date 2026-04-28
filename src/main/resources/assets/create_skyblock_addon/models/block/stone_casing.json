@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_skyblock_addon:block/stone_casing",
+    "up": "create_skyblock_addon:block/stone_casing",
+    "north": "create_skyblock_addon:block/stone_casing",
+    "east": "create_skyblock_addon:block/stone_casing",
+    "south": "create_skyblock_addon:block/stone_casing",
+    "west": "create_skyblock_addon:block/stone_casing",
+    "particle": "create_skyblock_addon:block/stone_casing"
+  },
+  "render_type": "solid"
+}

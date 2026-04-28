@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "create_skyblock_addon:item/dirty_copper_powder"
+  }
+}
