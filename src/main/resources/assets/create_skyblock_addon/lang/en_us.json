@@ -1,0 +1,23 @@
+{
+  "advancements.cobblestonefarm.descr": "Create a Cobblestonefarm",
+  "advancements.casings.descr": "Make a stone casing",
+  "block.create_skyblock_addon.stone_casing": "Stone casing",
+  "advancements.root.title": "Create Skyblock",
+  "item_group.create_skyblock_addon.createskyblockaddon": "Create: skyblock addon",
+  "item.create_skyblock_addon.incomplete_netherite_nugget": "Incomplete netheritenugget",
+  "advancements.sky_zinc.descr": "Obtain Zinc by trading with a villager or by milling copper",
+  "item.create_skyblock_addon.rocketbooster": "Rocket booster",
+  "advancements.pressing_with_villagers.title": "Pressing with villagers",
+  "item.create_skyblock_addon.dirty_copper_powder": "Dirty Copper Powder",
+  "advancements.pressing_with_villagers.descr": "Obtain an Iron Sheet",
+  "item.create_skyblock_addon.copper_powder": "Copper Powder",
+  "advancements.root.descr": "This is the start of your journey",
+  "advancements.iroon.descr": "Get Iron from washing gravel, from zombies or from Batering with Piglins",
+  "item.create_skyblock_addon.huge_rocketbooster": "Huge Rocketbooster",
+  "advancements.cobblestonefarm.title": "Cobblestonefarm",
+  "advancements.casings.title": "Stone Casing!",
+  "item.create_skyblock_addon.broken_flint": "Broken Flint",
+  "advancements.sky_zinc.title": "Zinc Time!",
+  "advancements.iroon.title": "Real Iron",
+  "itemGroup.create_skyblock_addon" : "Create Skyblock addon"
+}
