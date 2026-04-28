@@ -27,6 +27,8 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.lassilos.create_skyblock_addon.item.RocketboosterItem;
+import org.lassilos.create_skyblock_addon.item.HugeRocketboosterItem;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -62,9 +64,9 @@ public class create_skyblock_addon {
 
     public static final DeferredItem<Item> DIRTY_COPPER_POWDER = ITEMS.registerSimpleItem("dirty_copper_powder", new Item.Properties().rarity(Rarity.COMMON));
 
-    public static final DeferredItem<Item> HUGE_ROCKETBOOSTER = ITEMS.registerSimpleItem("huge_rocketbooster", new Item.Properties().rarity(Rarity.UNCOMMON));
+    public static final DeferredItem<Item> HUGE_ROCKETBOOSTER = ITEMS.register("huge_rocketbooster", () -> new HugeRocketboosterItem());
 
-    public static final DeferredItem<Item> ROCKETBOOSTER = ITEMS.registerSimpleItem("rocketbooster", new Item.Properties().rarity(Rarity.UNCOMMON));
+    public static final DeferredItem<Item> ROCKETBOOSTER = ITEMS.register("rocketbooster", () -> new RocketboosterItem());
 
     public static final DeferredItem<Item> INCOMPLETE_NETHERITE_NUGGET = ITEMS.registerSimpleItem("incomplete_netherite_nugget", new Item.Properties().rarity(Rarity.UNCOMMON));
 
