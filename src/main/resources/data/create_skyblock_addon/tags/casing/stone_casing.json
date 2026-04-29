@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create:casing",
+    "create_skyblock_addon:stone_casing"
+  ]
+}

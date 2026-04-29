@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients":
+    {
+      "item": "create:asurine"
+    },
+  "results": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 4
+    }
+  ]
+}
