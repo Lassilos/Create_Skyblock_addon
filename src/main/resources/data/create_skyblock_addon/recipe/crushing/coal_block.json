@@ -1,0 +1,16 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "processing_time": 500,
+  "results": [
+    {
+      "id": "create_skyblock_addon:pure_carbon",
+      "chance": 0.005,
+      "count": 1
+    }
+  ]
+}

@@ -67,6 +67,8 @@ public class create_skyblock_addon {
 
     public static final DeferredItem<Item> INCOMPLETE_NETHERITE_NUGGET = ITEMS.registerSimpleItem("incomplete_netherite_nugget", new Item.Properties().rarity(Rarity.UNCOMMON));
 
+    public static final DeferredItem<Item> PURE_CARBON = ITEMS.registerSimpleItem("pure_carbon", new Item.Properties().rarity(Rarity.UNCOMMON));
+
     // Creates a creative tab with the id "create_skyblock_addon:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATE_SKYBLOCK_ADDON_TAB = CREATIVE_MODE_TABS.register("create_skyblock_addon", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.create_skyblock_addon")).icon(() -> BROKEN_FLINT.get().getDefaultInstance()).displayItems((parameters, output) -> {
         output.accept(BROKEN_FLINT.get());

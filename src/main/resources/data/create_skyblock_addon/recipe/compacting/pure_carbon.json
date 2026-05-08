@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_skyblock_addon:pure_carbon",
+      "count": 1
+    }
+  ],
+  "processing_time": 500,
+  "heat_condition": "superheated",
+  "results": [
+    {
+      "id": "minecraft:diamond",
+      "count": 1
+    }
+  ]
+}
