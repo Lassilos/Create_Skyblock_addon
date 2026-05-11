@@ -1,5 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "building",
   "pattern": [
     "ABA",
     "BAB",
@@ -14,7 +16,6 @@
     }
   },
   "result": {
-    "item": "minecraft:gravel",
-    "count": 1
+    "id": "minecraft:gravel"
   }
 }
