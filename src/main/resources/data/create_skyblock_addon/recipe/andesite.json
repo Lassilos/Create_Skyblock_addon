@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:flint"
+		},
+		"B": {
+			"item": "minecraft:gravel"
+		},
+		"C": {
+			"item": "minecraft:lava_bucket"
+		}
+	},
+	"result": {
+		"id": "minecraft:andesite",
+		"count": 2
+	}
+}

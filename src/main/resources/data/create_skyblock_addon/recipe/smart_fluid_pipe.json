@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:fluid_pipe"
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:redstone"
+      }
+    ]
+  },
+  "result": {
+    "id": "create:smart_fluid_pipe"
+  }
+}

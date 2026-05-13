@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "pattern": [
+    " ABA ",
+    "BCDCB",
+    "BEFEB",
+    " E E "
+  ],
+  "key": {
+    "A": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:copper_backtank",
+      "components": {
+        "minecraft:custom_data": {
+          "Air": 0
+        }
+      }
+    },
+    "E": {
+      "item": "create:chute"
+    },
+    "F": {
+      "item": "create_skyblock_addon:huge_rocketbooster"
+    }
+  },
+  "result": {
+    "id": "create_jetpack:jetpack",
+    "components": {
+      "minecraft:custom_data": {
+        "Air": 0
+      }
+    }
+  }
+}
+

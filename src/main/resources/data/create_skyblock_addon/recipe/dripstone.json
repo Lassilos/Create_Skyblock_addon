@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ABA",
+		"CCC",
+		" D "
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:gravel"
+		},
+		"B": {
+			"item": "minecraft:cobblestone"
+		},
+		"C": {
+			"item": "minecraft:iron_ingot"
+		},
+		"D": {
+			"item": "minecraft:flint"
+		}
+	},
+	"result": {
+		"id": "minecraft:pointed_dripstone",
+		"count": 5
+	}
+}

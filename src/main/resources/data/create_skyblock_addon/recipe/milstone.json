@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "create_skyblock_addon:stone_casing"
+		},
+		"B": {
+			"item": "minecraft:stone"
+		},
+		"C": {
+			"tag": "minecraft:planks"
+		}
+	},
+	"result": {
+		"id": "create:millstone",
+		"count": 1
+	}
+}
