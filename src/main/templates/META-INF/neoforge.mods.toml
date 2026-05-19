@@ -58,6 +58,14 @@ versionRange = "[5.0,)"
 ordering = "NONE"
 side = "BOTH"
 
+# optional dependency for Create Dreams & Desires
+[[dependencies."${mod_id}"]]
+modId = "dndesires"
+type = "optional"
+versionRange = "[5.0,)"
+ordering = "NONE"
+side = "BOTH"
+
 # Here's another dependency
 [[dependencies."${mod_id}"]]
 modId = "minecraft"
