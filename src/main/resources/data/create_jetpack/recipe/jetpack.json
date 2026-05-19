@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_jetpack"
+    }
+  ],
+  "type": "create_jetpack:copy_components_mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    " PSP ",
+    "PYXYP",
+    "PCECP",
+    " C C "
+  ],
+  "key": {
+    "E": {
+      "item": "create_skyblock_addon:huge_rocketbooster"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "X": {
+      "item": "create:copper_backtank"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "Y": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "tag": "c:plates/brass"
+    }
+  },
+  "result": {
+    "id": "create_jetpack:jetpack"
+  }
+}

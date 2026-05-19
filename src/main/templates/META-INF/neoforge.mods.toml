@@ -42,13 +42,21 @@ description = '''${mod_description}'''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 
-# dependecie for create mod
+# dependecy for create mod
 [[dependencies."${mod_id}"]]
 modId="create"
 type="required"
 versionRange="[6.0.10,6.1.0)"
 ordering="NONE"
 side="BOTH"
+
+# optional dependency for Create Jetpack
+[[dependencies."${mod_id}"]]
+modId = "create_jetpack"
+type = "optional"
+versionRange = "[5.0,)"
+ordering = "NONE"
+side = "BOTH"
 
 # Here's another dependency
 [[dependencies."${mod_id}"]]
