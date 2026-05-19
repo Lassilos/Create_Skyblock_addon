@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_skyblock_addon:copper_powder",
+      "count": 4
+    },
+    {
+      "item": "minecraft:deepslate",
+      "count": 5
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 200,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "processing_time": 200,
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "minecraft:deepslate_copper_ore",
+      "count": 1
+    }
+  ]
+}
+
