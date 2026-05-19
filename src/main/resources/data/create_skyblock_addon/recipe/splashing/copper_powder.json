@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_skyblock_addon:dirty_copper_powder"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "id": "create_skyblock_addon:copper_powder"
+    }
+  ]
+}
