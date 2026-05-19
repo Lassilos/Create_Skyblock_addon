@@ -78,6 +78,7 @@ public class create_skyblock_addon {
         output.accept(ROCKETBOOSTER);
         output.accept(INCOMPLETE_NETHERITE_NUGGET);
         output.accept(STONE_CASING_ITEM);
+        output.accept(PURE_CARBON);
     }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
