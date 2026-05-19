@@ -62,7 +62,7 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId = "dndesires"
 type = "optional"
-versionRange = "[5.0,)"
+versionRange = "[2.2,)"
 ordering = "NONE"
 side = "BOTH"
 
