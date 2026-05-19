@@ -2,10 +2,10 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "item": "minecraft:stripped_oak_log"
+      "tag": "c:stripped_logs"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:stone"
     }
   ],
   "results": [
