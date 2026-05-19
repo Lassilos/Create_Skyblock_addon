@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone",
+      "count": 4
+    },
+    {
+      "item": "minecraft:orange_dye",
+      "count": 2
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "processing_time": 200,
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "create_skyblock_addon:dirty_copper_powder",
+      "count": 1
+    }
+  ]
+}
+

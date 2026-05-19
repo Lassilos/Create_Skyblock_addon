@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_brick",
+      "count": 16
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "count": 8
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "processing_time": 200,
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "minecraft:netherrack",
+      "count": 1
+    }
+  ]
+}
+
