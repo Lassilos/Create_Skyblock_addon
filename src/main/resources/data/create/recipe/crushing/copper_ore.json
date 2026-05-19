@@ -1,0 +1,36 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ore"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "id": "create:crushed_raw_copper",
+      "count": 5
+    },
+    {
+      "id": "create:crushed_raw_copper",
+      "chance": 0.25,
+      "count": 1
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75,
+      "count": 1
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "chance": 0.12,
+      "count": 1
+    },
+    {
+      "id": "create:raw_zinc",
+      "chance": 0.15,
+      "count": 2
+    }
+  ]
+}
+
