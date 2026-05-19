@@ -7,7 +7,7 @@
     }
   ],
   "processing_time": 500,
-  "heat_condition": "superheated",
+  "heat_requirement": "superheated",
   "results": [
     {
       "id": "minecraft:diamond",
