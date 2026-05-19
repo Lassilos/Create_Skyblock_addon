@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal",
+      "count": 2
+    }
+  ],
+  "processing_time": 100,
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "minecraft:coal",
+      "count": 1
+    }
+  ]
+}

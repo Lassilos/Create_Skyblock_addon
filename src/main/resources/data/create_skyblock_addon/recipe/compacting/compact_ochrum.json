@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:stone",
+      "count": 8
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "create:ochrum",
+      "count": 8
+    }
+  ]
+}
+
