@@ -1,16 +1,24 @@
 {
-  "advancements.cobblestonefarm.descr": "Create a Cobblestonefarm",
-  "advancements.casings.descr": "Make a stone casing",
-  "advancements.sky_zinc.descr": "Obtain Zinc by trading with a villager or by milling copper",
-  "advancements.root.title": "Create Skyblock",
-  "advancements.pressing_with_villagers.title": "Pressing with villagers",
-  "advancements.sky_zinc.title": "Zinc Time!",
-  "advancements.iroon.title": "Real Iron",
-  "advancements.cobblestonefarm.title": "Cobblestonefarm",
+  "advancements.cobblestone_farm.descr": "Create a Cobblestonefarm",
+  "advancements.cobblestone_farm.title": "Cobblestonefarm",
+
   "advancements.casings.title": "Stone Casing!",
-  "advancements.pressing_with_villagers.descr": "Obtain an Iron Sheet",
+  "advancements.casings.descr": "Make a stone casing",
+
+  "advancements.sky_zinc.descr": "Obtain Zinc by trading with a villager or by milling copper",
+  "advancements.sky_zinc.title": "Zinc Time!",
+
+  "advancements.root.title": "Create Skyblock",
   "advancements.root.descr": "This is the start of your journey",
+
+  "advancements.iroon.title": "Real Iron",
   "advancements.iroon.descr": "Get Iron from washing gravel, from zombies or from Batering with Piglins",
+
+  "advancements.pressing_with_villagers.title": "Pressing with villagers",
+  "advancements.pressing_with_villagers.descr": "Obtain an Iron Sheet",
+
+  "advancements.create_skyblock_addon.wood.title": "Getting Wood",
+  "advancements.create_skyblock_addon.wood.descr": "Obtain any log",
 
   "block.create_skyblock_addon.stone_casing": "Stone casing",
 

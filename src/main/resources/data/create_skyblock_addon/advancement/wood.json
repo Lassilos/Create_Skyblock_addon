@@ -1,0 +1,30 @@
+{
+  "parent": "create_skyblock_addon:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.create_skyblock_addon.wood.title"
+    },
+    "description": {
+      "translate": "advancements.create_skyblock_addon.wood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_any_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
+      }
+    }
+  }
+}
