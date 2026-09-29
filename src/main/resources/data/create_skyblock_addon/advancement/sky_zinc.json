@@ -1,14 +1,13 @@
 {
-  "parent": "create_skyblock_addon:wood",
   "display": {
     "icon": {
-      "id": "minecraft:cobblestone"
+      "id": "create:zinc_ingot"
     },
     "title": {
-      "translate": "advancements.cobblestone_farm.title"
+      "translate": "advancements.sky_zinc.title"
     },
     "description": {
-      "translate": "advancements.cobblestone_farm.descr"
+      "translate": "advancements.sky_zinc.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,17 +15,21 @@
     "hidden": false
   },
   "criteria": {
-    "has_cobblestone": {
+    "sky_zinc_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cobblestone"
+              "create:zinc_ingot"
             ]
           }
         ]
       }
     }
-  }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "create_skyblock_addon:pressing_with_villagers"
 }

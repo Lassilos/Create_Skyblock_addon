@@ -8,6 +8,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -48,7 +50,7 @@ public class create_skyblock_addon {
     // Creates a new BlockItem with the id "create_skyblock_addon:example_block", combining the namespace and path
     //public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
 
-    public static final DeferredBlock<Block> STONE_CASING = BLOCKS.registerSimpleBlock("stone_casing");
+    public static final DeferredBlock<Block> STONE_CASING = BLOCKS.registerSimpleBlock("stone_casing", BlockBehaviour.Properties.of().destroyTime(1.5f).mapColor(MapColor.STONE));
 
     public static final DeferredItem<BlockItem> STONE_CASING_ITEM = ITEMS.registerSimpleBlockItem("stone_casing", STONE_CASING);
 

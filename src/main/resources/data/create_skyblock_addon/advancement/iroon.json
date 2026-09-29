@@ -1,14 +1,13 @@
 {
-  "parent": "create_skyblock_addon:wood",
   "display": {
     "icon": {
-      "id": "minecraft:cobblestone"
+      "id": "minecraft:iron_ingot"
     },
     "title": {
-      "translate": "advancements.cobblestone_farm.title"
+      "translate": "advancements.iroon.title"
     },
     "description": {
-      "translate": "advancements.cobblestone_farm.descr"
+      "translate": "advancements.iroon.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,17 +15,18 @@
     "hidden": false
   },
   "criteria": {
-    "has_cobblestone": {
+    "iroon_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cobblestone"
+              "minecraft:iron_ingot"
             ]
           }
         ]
       }
     }
-  }
+  },
+  "parent": "create_skyblock_addon:pressing_with_villagers"
 }
